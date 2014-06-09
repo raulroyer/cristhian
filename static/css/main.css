@@ -1,0 +1,27 @@
+#profile-section{
+	background: #fdd42f;
+	background-image: url("../img/header-shadow.png"), url("../img/header-bg.png");
+	background-position: bottom center, top left;
+	background-repeat: repeat-x;
+	min-height: 283px;
+	margin: 0 auto;
+	width: 860px;
+}
+
+@media (max-width: 960px){
+	#profile-section{
+		width: 750px;
+	}
+}
+
+@media (max-width: 770px){
+	#profile-section{
+		width: 470px;
+	}
+}
+
+@media (max-width: 480px){
+	#profile-section{
+		width: 300px;
+	}
+}
